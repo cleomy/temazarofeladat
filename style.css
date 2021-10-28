@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-image:url("hatter.jpg");
+    text-align: justify;     
+}
+.container{
+    max-width:1000px;
+    background-color: rgb(172,243,243);
+    padding: 20px;
+    margin:0 auto;
+}
+h1,h2{
+    color: blue;  
+}
+.kep-tarolo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.kep-tarolo div {
+    box-shadow: 0 0 3px blue;
+    border-radius: 5px;
+}
+.kep-tarolo div img{
+    max-width: 200px;   
+}
+.kep-tarolo div img p {
+    color: blue;
+    text-align: center; 
+}
+.felkover{
+    color:blue;
+    font-weight: bold;
+}
+p{
+    text-indent: 1em;
+}
+table,th,td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+table{
+    border: 2px solid blue;
+    margin: auto;
+    border-collapse: collapse;
+} 
+thead{
+    background-color: blue;
+    color:white;
+}  
+footer{
+    text-align: right;
+    padding: 5px;
+}
+
+/*Köszönöm Szépen a lehetőséget :) */
